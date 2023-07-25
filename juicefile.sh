@@ -5,7 +5,7 @@ for file in $(cat /usr/share/wordlists/seclists/Discovery/Web-Content/raft-small
 do
 for extension in $(cat /usr/share/wordlists/seclists/Discovery/Web-Content/raft-medium-extensions-lowercase.txt)
 do
-echo "$file$extension" > new_wordlist.txt
+echo "$file$extension" >> new_wordlist.txt
 echo "$file$extension"
 done
 done
